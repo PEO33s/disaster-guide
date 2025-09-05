@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Disaster Guide</title>
+  <style>
+    body {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(to bottom right, #fff4e6, #ffe8e0);
+  color: #4b2e2e;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.card {
+  background: #fff9f5;
+  border-radius: 20px;
+  padding: 28px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 18px rgba(120, 40, 20, 0.08);
+  border-left: 6px solid #d94f2a; /* Deep orange-red */
+}
+
+h2, h3 {
+  color: #d94f2a;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+h4 {
+  margin: 0 0 8px;
+  font-weight: 600;
+  color: #4b2e2e;
+}
+
+p {
+  margin: 0 0 12px;
+  font-size: 15px;
+  color: #5c3d31;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+  color: #5c3d31;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.button-guide {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.guide-card {
+  background: #fff2eb;
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid #f5c6b8;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: #a86c5c;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #f5c6b8;
+}
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- About -->
+    <div class="card">
+      <h2>ℹ️ About This App</h2>
+      <p>This app offers <strong>clear, trusted guidance</strong> for three major hazards: <strong>Earthquakes</strong>, <strong>Typhoons</strong>, and <strong>Landslides</strong>. Discover <strong>what they are</strong>, key <strong>historical events</strong>, essential <strong>do’s & don’ts</strong>, <strong>preparedness tips</strong>, and <strong>emergency contacts</strong>.</p>
+      <p>Features include <strong>interactive checklists</strong>, <strong>hotlines</strong>, and a <strong>Shake-to-Alert</strong> sound trigger. Requires an <strong>internet connection</strong>. This is a <strong>guide only</strong>—not a substitute for emergency services.</p>
+    </div>
+
+    <!-- Capabilities & Limitations -->
+    <div class="card">
+      <h3>✅ Capabilities</h3>
+      <ul>
+        <li>Accurate info on Earthquakes, Typhoons, Landslides</li>
+        <li>Safety tips and preparedness checklists</li>
+        <li>Emergency hotlines and contact info</li>
+        <li>Shake-to-Alert sound feature</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>⚠️ Limitations</h3>
+      <ul>
+        <li>Focuses on only three hazards</li>
+        <li>Requires internet access</li>
+        <li>Informational only—not a live emergency tool</li>
+      </ul>
+    </div>
+
+    <!-- Button Guide -->
+    <div class="card">
+      <h2>🧭 Button Guide</h2>
+      <div class="button-guide">
+        <div class="guide-card">
+          <h4>🏠 Home Screen</h4>
+          <p><strong>Menu</strong> – Hazard options<br><strong>About</strong> – App overview<br><strong>Acknowledgements</strong> – Creators<br><strong>Others</strong> – Hotlines, Info, Exit</p>
+        </div>
+        <div class="guide-card">
+          <h4>📑 Menu Screen</h4>
+          <p>Select a hazard card to view info<br><strong>Back</strong> returns to Home</p>
+        </div>
+        <div class="guide-card">
+          <h4>🌍 Disaster Screens</h4>
+          <p>Page 1: <strong>Home</strong>, <strong>Menu</strong>, <strong>Next</strong><br>Next pages: <strong>Back</strong>, <strong>Menu</strong></p>
+        </div>
+        <div class="guide-card">
+          <h4>ℹ️ About Screen</h4>
+          <p>Page 1: <strong>Home</strong>, <strong>Next</strong><br>Page 2: <strong>Back</strong>, <strong>Home</strong></p>
+        </div>
+        <div class="guide-card">
+          <h4>👥 Acknowledgements</h4>
+          <p>Page 1: <strong>Home</strong>, <strong>Next</strong><br>Page 2: <strong>Back</strong>, <strong>Home</strong></p>
+        </div>
+        <div class="guide-card">
+          <h4>📞 Others</h4>
+          <p>Page 1: <strong>Home</strong>, <strong>Next</strong><br>Page 2: <strong>Back</strong>, <strong>Next</strong><br>Page 3: <strong>Back</strong>, <strong>Home</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      ✨ Keep buttons consistent and intuitive. Short labels like <strong>Home</strong>, <strong>Menu</strong>, <strong>Back</strong>, and <strong>Next</strong> make navigation smoother.
+    </footer>
+
+  </div>
+
+</body>
+</html>
